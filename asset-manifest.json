@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/bms-using-react/static/css/main.7dc2154e.css",
-    "main.js": "/bms-using-react/static/js/main.888d7520.js",
+    "main.js": "/bms-using-react/static/js/main.3549005b.js",
     "index.html": "/bms-using-react/index.html",
     "main.7dc2154e.css.map": "/bms-using-react/static/css/main.7dc2154e.css.map",
-    "main.888d7520.js.map": "/bms-using-react/static/js/main.888d7520.js.map"
+    "main.3549005b.js.map": "/bms-using-react/static/js/main.3549005b.js.map"
   },
   "entrypoints": [
     "static/css/main.7dc2154e.css",
-    "static/js/main.888d7520.js"
+    "static/js/main.3549005b.js"
   ]
 }
