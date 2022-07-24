@@ -2,7 +2,7 @@
   "name": "bms",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://suraiyakawsar.github.io/bms-using-react",
+  "homepage": "https://suraiyakawsar.github.io/bms-using-react/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
