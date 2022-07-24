@@ -1,0 +1,17 @@
+.pagination {
+    margin: 3rem 0rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 0.7rem;
+    .page-no {
+        a {
+            text-decoration: none;
+            color: white;
+            background: #e4ce08;
+            padding: 1rem;
+            border-radius: 10px;
+            box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        }
+    }
+}

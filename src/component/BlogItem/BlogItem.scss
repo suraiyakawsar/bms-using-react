@@ -1,0 +1,54 @@
+.blogitem-wrap {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 1rem;
+    gap: 1rem;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+    h3 {
+        flex: 1;
+    }
+
+    .blogitem-desc {
+        position: relative;
+        max-height: 55px;
+        overflow: hidden;
+        font-size: 0.8rem;
+        padding-right: 0.6rem;
+        color: black;
+        font-family: "Kanit";
+        font-weight: 300;
+
+        &::before {
+            position: absolute;
+            content: "...";
+            bottom: 0;
+            right: 0;
+        }
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        margin-top: 1rem;
+        justify-content: space-between;
+
+        .blogitem-author {
+            display: flex;
+            align-items: center;
+        }
+        .blogitem-btn {
+            display: flex;
+            gap: 0.5rem;
+
+            button {
+                padding: 0.3rem;
+                background: transparent;
+                font-size: 1rem;
+                border-radius: 0.5rem;
+                cursor: pointer;
+            }
+        }
+    }
+}

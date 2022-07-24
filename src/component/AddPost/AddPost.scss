@@ -1,0 +1,41 @@
+form {
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    width: 80%;
+    #title {
+        padding: 1rem;
+        font-size: x-large;
+        border-bottom: 2px #e4ce08 solid;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+    #body {
+        padding: 1rem;
+        resize: none;
+        font-size: larger;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+        font-family: "Kanit";
+        font-weight: 300;
+    }
+    button {
+        padding: 0.5rem;
+        width: 40%;
+        background-color: #e4ce08;
+        border-radius: 10px;
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+        cursor: pointer;
+        font-family: "Kanit", sans-serif;
+        font-size: larger;
+        font-weight: bolder;
+    }
+    .createicon {
+        display: flex;
+        align-items: center;
+
+        .icon {
+            font-size: 2rem;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;600&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+}
+
+.container {
+  max-width: 1140px;
+  width: 95%;
+  margin: 0 auto;
+  padding: 1rem 0;
+  .blog-post {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin-top: 4rem;
+
+    h1 {
+      font-size: 4rem;
+      box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+      padding: 2rem;
+      text-shadow: #e4ce08 1px 2px 4px;
+    }
+  }
+}
