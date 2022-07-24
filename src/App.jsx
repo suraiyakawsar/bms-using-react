@@ -43,7 +43,7 @@ function App() {
         setLoading(false);
       }
     } catch (e) {
-      // console.log(e);
+      console.log(e);
     }
   }
 
@@ -92,7 +92,6 @@ function App() {
   //change page
   const paginate = (currentPage) => {
     getPosts(currentPage);
-    // setCurrentPage(currentPage);
   };
 
   return (
