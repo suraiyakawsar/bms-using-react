@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bms-using-react/static/css/main.593ccfb5.css",
+    "main.js": "/bms-using-react/static/js/main.6451cddb.js",
+    "index.html": "/bms-using-react/index.html",
+    "main.593ccfb5.css.map": "/bms-using-react/static/css/main.593ccfb5.css.map",
+    "main.6451cddb.js.map": "/bms-using-react/static/js/main.6451cddb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.593ccfb5.css",
+    "static/js/main.6451cddb.js"
+  ]
+}
